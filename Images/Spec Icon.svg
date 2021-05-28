@@ -1,0 +1,9 @@
+<svg id="Spec_Icon" data-name="Spec Icon" xmlns="http://www.w3.org/2000/svg" width="72" height="66.307" viewBox="0 0 72 66.307">
+  <g id="Rectangle_21" data-name="Rectangle 21" transform="translate(0 0.307)" fill="#30feca" stroke="#75dbd8" stroke-width="2">
+    <rect width="72" height="66" rx="9" stroke="none"/>
+    <rect x="1" y="1" width="70" height="64" rx="8" fill="none"/>
+  </g>
+  <rect id="Rectangle_22" data-name="Rectangle 22" width="50" height="7" rx="3.5" transform="translate(11 15.307)" fill="#fff"/>
+  <rect id="Rectangle_23" data-name="Rectangle 23" width="46" height="7" rx="3.5" transform="translate(11 30.307)" fill="#fff"/>
+  <rect id="Rectangle_24" data-name="Rectangle 24" width="31" height="7" rx="3.5" transform="translate(11 45.307)" fill="#fff"/>
+</svg>

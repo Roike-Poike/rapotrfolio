@@ -1,0 +1,15 @@
+<svg id="Facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="105" height="101" viewBox="0 0 105 101">
+  <defs>
+    <filter id="Icon_awesome-facebook" x="20.357" y="23.362" width="64.628" height="60.47" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect id="Rectangle_31" data-name="Rectangle 31" width="105" height="101" rx="50.5" fill="#6f9"/>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_awesome-facebook)">
+    <path id="Icon_awesome-facebook-2" data-name="Icon awesome-facebook" d="M47.19,21.927C47.19,10.125,36.755.563,23.876.563S.563,10.125.563,21.927c0,10.663,8.526,19.5,19.671,21.106V28.1H14.311V21.927h5.922V17.22c0-5.354,3.478-8.311,8.806-8.311a39.059,39.059,0,0,1,5.219.417V14.58H31.318c-2.9,0-3.8,1.647-3.8,3.336v4.01h6.466L32.951,28.1H27.519v14.93C38.665,41.428,47.19,32.59,47.19,21.927Z" transform="translate(28.79 28.8)" fill="#fefe00"/>
+  </g>
+</svg>
