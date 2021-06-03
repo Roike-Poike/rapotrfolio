@@ -144,8 +144,8 @@ header nav {
   text-shadow: 0.5px 0.5px 0.5px #00000085;
   background: -webkit-gradient(linear, left top, left bottom, from(#b8ffb9), to(#7eaee3));
   background: linear-gradient(#b8ffb9, #7eaee3);
-  border-top: 3px solid #7eaee3;
-  border-left: 3px solid #7eaee3;
+  /*border-top: 3px solid#7eaee3;
+        border-left: 3px solid#7eaee3;*/
 }
 
 /*About Me Section*/
@@ -263,7 +263,7 @@ header nav {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-bottom: 3em;
+  /*margin-bottom: 3em;*/
   position: relative;
 }
 
@@ -280,7 +280,7 @@ header nav {
   background-color: rgba(255, 255, 255, 0.9);
   border: white;
   border-radius: 32px;
-  padding: 0.5em 4em;
+  padding: 0.5em 1em;
 }
 
 .services .icon-container-UIUX img {
@@ -293,15 +293,15 @@ header nav {
 .services .icon-container-UIUX:hover {
   -webkit-box-shadow: 1px 5px 35px 0px #0000003a;
           box-shadow: 1px 5px 35px 0px #0000003a;
-  border-top: 4px solid #7eaee3;
-  border-left: 4px solid #7eaee3;
+  /*border-top: 4px solid #7eaee3;
+        border-left: 4px solid #7eaee3;*/
 }
 
 .services .icon-container-wireframes {
   background-color: rgba(255, 255, 255, 0.9);
   border: white;
   border-radius: 32px;
-  padding: 0.5em 4em;
+  padding: 0.5em 1em;
 }
 
 .services .icon-container-wireframes img {
@@ -314,15 +314,15 @@ header nav {
 .services .icon-container-wireframes:hover {
   -webkit-box-shadow: 1px 5px 35px 0px #0000003a;
           box-shadow: 1px 5px 35px 0px #0000003a;
-  border-top: 4px solid #7eaee3;
-  border-left: 4px solid #7eaee3;
+  /*border-top: 4px solid #7eaee3;
+        border-left: 4px solid #7eaee3;*/
 }
 
 .services .icon-container-specifications {
   background-color: rgba(255, 255, 255, 0.9);
   border: white;
   border-radius: 32px;
-  padding: 0.5em 4em;
+  padding: 0.5em 1em;
 }
 
 .services .icon-container-specifications img {
@@ -335,8 +335,8 @@ header nav {
 .services .icon-container-specifications:hover {
   -webkit-box-shadow: 1px 5px 35px 0px #0000003a;
           box-shadow: 1px 5px 35px 0px #0000003a;
-  border-top: 4px solid #7eaee3;
-  border-left: 4px solid #7eaee3;
+  /*border-top: 4px solid #7eaee3;
+        border-left: 4px solid #7eaee3;*/
 }
 
 /*Portfolio Section*/
@@ -406,11 +406,11 @@ header nav {
   padding: 1em 0;
 }
 
-.portfolio .portfolio-container-0, .portfolio .portfolio-container-1-transition3:hover, .portfolio .portfolio-container-2-transition3:hover {
+.portfolio .portfolio-container-0:hover, .portfolio .portfolio-container-1-transition3:hover, .portfolio .portfolio-container-2-transition3:hover {
   -webkit-box-shadow: 1px 5px 35px 0px #0000003a;
           box-shadow: 1px 5px 35px 0px #0000003a;
-  border-top: 4px solid #7eaee3;
-  border-left: 4px solid #7eaee3;
+  /*border-top: 4px solid #7eaee3;
+        border-left: 4px solid #7eaee3;*/
 }
 
 /*Testimonials Section*/
@@ -506,8 +506,8 @@ header nav {
 .testimonials .card-container:hover {
   -webkit-box-shadow: 1px 5px 35px 0px #0000003a;
           box-shadow: 1px 5px 35px 0px #0000003a;
-  border-top: 4px solid #7eaee3;
-  border-left: 4px solid #7eaee3;
+  /*border-top: 4px solid #7eaee3;
+        border-left: 4px solid #7eaee3;*/
 }
 
 /*Final Call To Action Section*/
@@ -518,6 +518,24 @@ header nav {
   line-height: 2em;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.651);
   font-size: larger;
+}
+
+.lets-talk-footer a {
+  -webkit-text-decoration-color: #30FECA;
+          text-decoration-color: #30FECA;
+}
+
+.lets-talk-footer a:link {
+  color: #30FECA;
+}
+
+.lets-talk-footer a:hover {
+  color: white;
+  background: #30FECA;
+  border-radius: 32px;
+  padding: 0.2em 1em 0.2em 1em;
+  -webkit-box-shadow: 1px 5px 35px 0px #0000003a;
+          box-shadow: 1px 5px 35px 0px #0000003a;
 }
 
 /*Footer Section*/
@@ -671,7 +689,7 @@ footer p {
             justify-content: start;
   }
   .about-me {
-    width: 85%;
+    width: 87.5%;
   }
   .about-me .container {
     display: -ms-grid;
@@ -713,7 +731,7 @@ footer p {
     margin-top: 3em;
   }
   .portfolio h1 {
-    margin: 0 0 0 4em;
+    margin: 0 0 0 6em;
     font-size: 2.1em;
   }
   .portfolio h1::before {
@@ -764,7 +782,7 @@ footer p {
   }
   .services {
     display: block;
-    width: 85%;
+    width: 87.5%;
     border-radius: 0 32px 32px 0;
     margin-top: 5em;
     -webkit-box-pack: center;
@@ -800,7 +818,7 @@ footer p {
     padding: 0.5em 1em;
   }
   .testimonials {
-    width: 85%;
+    width: 87.5%;
     border-radius: 0 32px 32px 0;
   }
   .testimonials h1 {
@@ -903,8 +921,27 @@ footer p {
     display: grid;
     width: 100%;
   }
+  .services h1 {
+    margin: 0;
+  }
   .services .service-container ul {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .portfolio .portfolio-container-0, .portfolio .portfolio-container-1-transition3, .portfolio .portfolio-container-2-transition3 {
+    display: block;
+    text-align: center;
+  }
+  .portfolio .portfolio-container-0 .featured-product-description ul, .portfolio .portfolio-container-1-transition3 .featured-product-description ul, .portfolio .portfolio-container-2-transition3 .featured-product-description ul {
+    /*margin: -60% 0 0 40%;*/
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    justify-items: center;
   }
 }
 /*# sourceMappingURL=main.css.map */
