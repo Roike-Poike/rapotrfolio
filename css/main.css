@@ -836,8 +836,7 @@ footer p {
     display: grid;
     grid-gap: 6em;
     margin: 6em 6em 2em 6em;
-    -ms-grid-rows: (auto)[3];
-        grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
     text-align: left;
   }
   .testimonials .card-box .card-container {
